@@ -21,7 +21,8 @@ var options = {
     ignoreCertificate: false,
     ignoreGpuBlacklist: false,
     enableEs3Apis: false,
-    internalUrls: '.*?', // defaults to URLs on same second-level domain as app
+    internalUrls: '(.*?\.atlassian\.com\/.*|api\.netlify\.com)', // defaults to URLs on same second-level domain as app
+    // internalUrls: '.*?', // defaults to URLs on same second-level domain as app
     blockExternalUrls: false,
     insecure: false,
     honest: false,
