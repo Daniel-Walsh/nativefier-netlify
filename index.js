@@ -10,7 +10,7 @@ var options = {
     out: './build',
     overwrite: false,
     asar: false, // see conceal
-    icon: './icon.icns',
+    icon: './assets/icon.png',
     counter: false,
     bounce: false,
     width: 1280,
@@ -32,7 +32,7 @@ var options = {
       saveAs: true // always show "Save As" dialog
     },
     inject: [
-        './draggable.css'
+        './assets/draggable.css'
     ],
     titleBarStyle: 'hidden'
     // ,
